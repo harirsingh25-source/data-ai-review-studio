@@ -1,0 +1,20 @@
+[project]
+name = "data-ai-review-studio"
+version = "0.1.0"
+description = "Interactive, evidence-led Data & AI daily reviews built with Streamlit."
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.0",
+    "plotly>=6.0.0",
+    "scikit-learn>=1.9.0",
+    "streamlit>=1.60.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

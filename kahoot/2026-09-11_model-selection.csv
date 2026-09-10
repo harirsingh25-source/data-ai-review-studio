@@ -1,0 +1,10 @@
+Question,Answer 1,Answer 2,Answer 3,Answer 4,Time limit (sec),Correct answer(s)
+What is cross-validation mainly used for?,Cleaning data,Estimating generalization,Deployment,Plotting,20,2
+When should the final test set influence model selection?,Every iteration,Before training,After selection is locked,During scaling,20,3
+What does StratifiedKFold preserve?,Feature means,Class proportions,Row order,Hyperparameters,20,2
+Why can KNN require feature scaling?,It uses distances,Trees require it,It removes labels,It creates folds,20,1
+What does GridSearchCV select?,Test labels,Best hyperparameters,Random rows,Only features,20,2
+Which score should define the winner?,Training score,Validation evidence,Repeated test score,Model size,20,2
+Repeated tuning after seeing test results causes what?,Bagging,Leakage into model selection,Clustering,Regularization,20,2
+When should the final test set be unlocked?,At the end,Every fold,Before Grid Search,After every model,20,1
+Which Streamlit feature batches several widget changes into one submit-triggered rerun?,st.session_state,st.form,st.cache_data,st.sidebar,20,2
